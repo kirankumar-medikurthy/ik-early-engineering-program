@@ -9,7 +9,7 @@ public class quickSortHoarsePartition {
         }
         int smaller = start;
         int bigger = end;
-        while(smaller < bigger) {
+        while(smaller <= bigger) {
             if(array[smaller] < array[start] ) {
                 smaller++;
             }else if(array[bigger] > array[start]) {
