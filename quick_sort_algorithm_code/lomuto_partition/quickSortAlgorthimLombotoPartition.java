@@ -1,3 +1,4 @@
+package quick_sort_algorithm_code.lomuto_partition;
 import java.util.Scanner;
 
 class quickSortAlgorthimLombotoPartition {
